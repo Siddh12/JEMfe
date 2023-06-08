@@ -1,0 +1,268 @@
+
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: #5A2328;
+    margin: 0;
+}
+
+.head {
+    background-color: #f3fdf5;
+    width: 100%;
+    height: 250px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.navigation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 200px;
+}
+
+.navigation>a {
+    text-decoration: none;
+    color: #000411;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    background-color: #f3fdfa;
+}
+
+.navigation>a:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6290C3;
+}
+
+.midilecontent {
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.midilecontentleft {
+    width: 55%;
+    height: auto;
+    padding: 20px 0px 0px 170px;
+}
+
+.midilecontentleft>h1 {
+    font-weight: lighter;
+}
+
+.midilecontentright {
+    padding-top: 50px;
+}
+
+.service {
+    width: 100%;
+    height: 250px;
+    background-color: #f3fdfa;
+    padding-top: 20px;
+}
+
+.serviceheading {
+    display: flex;
+    padding-left: 170px;
+    align-items: center;
+}
+
+.serviceheading>h1 {
+    margin-right: 100px;
+    font-weight: lighter;
+}
+
+.servicetype {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin-left: 170px;
+}
+
+h5 {
+    color: #5A2328;
+    border: 1px solid #5A2328;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h5:hover {
+    background-color: #5A2328;
+    color: #ffffff;
+}
+
+.teamsection {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.teamheading {
+    width: 100%;
+}
+
+.teamheading>h1 {
+    font-weight: lighter;
+    padding: 20px 0px 0px 170px;
+}
+
+.teamdetailscontener {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.teamdetailscontener>img {
+    border-radius: 1500px;
+}
+
+.namedetailscontener {
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstname,
+.secondname,
+.thirdname {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    border-radius: 200px;
+}
+h4{
+    margin: 10px 0 0 0;
+}
+
+.check, .check1, .check2 {
+    display: none;
+    margin: 0;
+}
+
+.try:hover+.check {
+    display: block;
+}
+
+.try1:hover+.check1 {
+    display: block;
+}
+
+.try2:hover+.check2 {
+    display: block;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #f3fdfa;
+}
+
+.contactushedder>h1 {
+    font-weight: lighter;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+.formbox {
+    width: 100%;
+    display: flex;
+}
+
+.contactform,
+.addresssection {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+form{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #f3fdfa;
+    border-bottom: 1px solid #5A2328;
+}
+
+input:focus{
+    outline: none;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #5A2328;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #5A2328;  
+    cursor: pointer; 
+}
+
+button:hover{
+    border: 1px solid #5A2328;
+    color: #5A2328;
+    background-color: #ffffff;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #5A2328;
+  height: 40px;
+  color: gray;
+}
+
+.addressdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 88%;
+}
+
+.addressdetails>p{
+    margin: 0;
+}
+
+.addressdetails>h4{
+    color: #5A2328;
+}
